@@ -115,7 +115,7 @@ Only ever snap after the strip pass. Snapping first produces a tidy palette full
 | Border | 1px `#e9ecef` |
 | State/selected | 2px in the relevant accent |
 | Geometry | Per §16 — outline 2.5px accent, helper 1.5px `#adb5bd` |
-| Extended hue | Nearest of the 12 hues (§32), snapped to its `light`/`base`/`deep` stop |
+| Extended hue | Nearest of the 10 hues (§32), snapped to its `light`/`base`/`deep` stop. Never `correct` green or `wrong` red — those snap to teal/lime and pink/orange |
 | Shadow | §38.5 |
 
 **Step 3 — the reserved-colour guard.** After mapping, assert: no green in the `correct` range and no red in the `wrong` range survives anywhere that is not a state. A decorative green must move to the extended `teal`/`lime` hue, not keep `#40c057`. This check runs on every module, every time — it is the one that prevents a student reading a decorative tick-green as "you got it right".

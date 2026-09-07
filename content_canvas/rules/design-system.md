@@ -328,6 +328,8 @@ The role values and the generated ladder — both columns — live in `01-founda
 - **Hidden edges** — `faint`, dashed; the three dash patterns keep their three meanings (`6 4` hidden, `2 6` construction, `4 4` ghost).
 - **Grid and lattice invert** — light room: dark dots at low alpha; dark room: *light* dots at low alpha. A "darken the dots" sweep erases them.
 
+**Illustrations** (`07-illustration.md §31.7`): a palette resolution, never a redesign. Structural neutrals become `surface2` / `line2` / `dim`; a `light` background plane becomes an **alpha tint of the same hue**, never the pale hex — a pale plate is the class §5.7 exists to catch. The measured dark column for the ten extended hues and the five skin tones is still owed.
+
 **Media scrims — the one place light ink is correct in the dark room.** A translucent near-black scrim over an image or video takes `ink` (light), in both rooms. Sweeping it to `canvas` gives near-black on near-black (~1.05:1). This is the exact inverse of the accent-fill rule, which is why a single-direction sweep cannot satisfy both.
 
 ### 5.4 Contrast
