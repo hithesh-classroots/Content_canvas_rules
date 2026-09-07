@@ -31,8 +31,8 @@ only to sections (`§0`–`§45`). Both spaces are permanent: numbers may be add
 6. **One accent per board**, from the semantic table. One token per role.
 7. **Three inks.** `#868e96` never carries information needed to answer.
 8. **One border: 1px `#e9ecef`.** 2px means selected.
-9. **Four radii: 8 / 12 / 16 / 999.**
-10. **Two shadows.** Glows belong to primary buttons; media gets none.
+9. **Six radii: 8 / 12 / 16 / 20 / 999 / 50%** (§4). 20 is the surface-and-button family marker (§20.0), not a step in a ramp; nothing else uses it.
+10. **Two shadows.** Glows belong to primary buttons and to `attention` (§8a.3); media gets none.
 11. **One primary button per board.** Hint is always secondary.
 12. **`gap`, never margin.** 8 / 14 / 20 / 26 / 40. Padding `24px 34px 20px`, or 44px top with a chip.
 13. **Media: fixed box, `object-fit:cover`, no border, no shadow, capped height.**
@@ -45,8 +45,8 @@ only to sections (`§0`–`§45`). Both spaces are permanent: numbers may be add
 20. **A board never scrolls.** If it does, cut content — never shrink type.
 21. **No dark boards, no white ink, no warm yellow ink.**
 22. **Illustration, diagram and photo are different things** (§30). If a student could measure it, it is a diagram — semantic accents and real geometry only.
-23. **Flat vector only:** primitives, two stops per shape, no gradients, no shadows, no highlights, light from the top-left.
-24. **Extended hues are decorative** (§32). Max 4 per illustration, dominant = the board's accent, and never `correct` green or `wrong` red for decoration.
+23. **Flat vector only:** primitives, two stops per form, no gradients, no shadows, no highlights, **no isometric** (§16c is diagrams of solids only), light from the top-left.
+24. **Extended hues are decorative** (§32). Ten hues, max 4 per illustration — and those four are the board's four (§3.8) — dominant = the board's accent, never an anchored token on a decorative element (§34.5). `correct` green and `wrong` red are not in the palette.
 25. **Read the whole module before designing any board.** Produce a colour ledger, a visual-model ledger and a per-slide layout verdict first (§33).
 26. **Source colours are semantic commitments.** Build the anchor ledger, cap it at three referents, and a term keeps its colour everywhere — the ledger outranks any per-board choice (§34).
 25a. **Rank referents before colouring them** (§34.1–34.2): the term the module exists to teach is **primary** concept violet; the term it is defined against is **secondary** emphasis orange; results are **tertiary** action blue. The module title's key noun must be the primary accent.
